@@ -1,4 +1,4 @@
-# Placement Assistant – Agentic RAG Chatbot
+# Placement Assistant – Agentic RAG Chatbot 🎓🤖
 
 An AI-powered Placement Assistant built using Agentic RAG architecture to help students retrieve placement-related information, analyze resumes/job descriptions, and interact with placement data through a conversational chatbot.
 
@@ -14,7 +14,7 @@ The project uses:
 
 ---
 
-# Features
+# ✨ Features
 
 - Agentic RAG chatbot
 - Fast and Agentic modes
@@ -28,10 +28,13 @@ The project uses:
 - Multiple LLM backend support
 - Company-specific retrieval
 - Aggregation-based queries
+- Real-time streaming chatbot responses
+- Context-grounded answer generation
+- Placement-focused semantic retrieval
 
 ---
 
-# Tech Stack
+# 🛠️ Technology Stack
 
 ## Backend
 
@@ -47,6 +50,7 @@ The project uses:
 
 - React.js
 - Node.js
+- Vite
 
 ## Embedding Model
 
@@ -369,7 +373,15 @@ Placement_Assistant/
 
 ---
 
-# Setup Instructions
+# 🚀 Getting Started
+
+## Prerequisites
+
+- Python 3.10+
+- Node.js & npm
+- Gemini API Key or Groq API Key
+
+---
 
 ## Backend Setup
 
@@ -431,3 +443,60 @@ cd frontend
 npm install
 npm run dev
 ```
+
+Frontend runs on:
+
+```text
+http://localhost:5173
+```
+
+---
+
+# 📖 Usage
+
+1. Open the frontend in your browser.
+2. Create an account or login.
+3. Select Fast or Agentic mode.
+4. Ask placement-related queries.
+
+Example queries:
+
+- What is the stipend for Amazon?
+- What are the eligibility criteria for Bosch?
+- List all companies for 2026
+- Analyze my resume
+- Compare company packages
+
+---
+
+# 📄 Documentation
+
+- `rag_agent.py` → LangGraph Agentic RAG workflow
+- `api.py` → FastAPI backend APIs and authentication
+- `generate_chunks.py` → Placement document chunk generation
+- `store_embeddings.py` → ChromaDB embedding storage pipeline
+- `query_db.py` → Semantic retrieval testing
+- `frontend/` → React frontend application
+
+---
+
+# Future Improvements
+
+Possible enhancements:
+
+- cloud vector database deployment
+- reranking pipeline
+- hybrid search
+- Redis caching
+- JWT authentication
+- scalable session storage
+- production deployment pipeline
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+Built with ❤️ by Pannagaram
