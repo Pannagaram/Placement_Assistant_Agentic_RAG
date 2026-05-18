@@ -431,25 +431,3 @@ cd frontend
 npm install
 npm run dev
 ```
-
----
-
-# Future Improvements
-
-Possible enhancements:
-
-- cloud vector database deployment
-- reranking pipeline
-- hybrid search
-- Redis caching
-- JWT authentication
-- scalable session storage
-- production deployment pipeline
-
----
-
-# Repository
-
-Repository Link:
-
-https://github.com/Pannagaram/Placement_Assistant_Agentic_RAG
