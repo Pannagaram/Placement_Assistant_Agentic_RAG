@@ -380,6 +380,7 @@ Placement_Assistant/
 - Python 3.10+
 - Node.js & npm
 - Gemini API Key or Groq API Key
+- - [Ollama](https://ollama.com/) (running Llama 3)
 
 ---
 
